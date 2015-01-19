@@ -1,0 +1,2 @@
+add_lunch_combo omni_D10A_HighScreen-userdebug
+

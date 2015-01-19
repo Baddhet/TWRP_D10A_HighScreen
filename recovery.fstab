@@ -1,0 +1,9 @@
+/system           ext4       /dev/block/platform/msm_sdcc.1/by-name/system
+/data             ext4       /dev/block/platform/msm_sdcc.1/by-name/userdata
+/cache            ext4       /dev/block/platform/msm_sdcc.1/by-name/cache
+/boot             emmc       /dev/block/platform/msm_sdcc.1/by-name/boot
+/recovery         emmc       /dev/block/platform/msm_sdcc.1/by-name/recovery
+/external_sd      vfat       /dev/block/mmcblk1p1                               flags=display="External_sd";storage;wipeingui;removable
+/internal_sd      vfat       /dev/block/platform/msm_sdcc.1/by-name/usbmsc      flags=display="Internal_sd";storage;wipeingui;removable
+/usb-otg          vfat       /dev/block/sda1 /dev/block/sda                     flags=display="USB OTG";storage;wipeingui;removable
+
